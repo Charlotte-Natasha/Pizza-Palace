@@ -54,6 +54,18 @@ header .icons div:hover {
   padding: 1rem;
   animation: float 3s linear infinite;
 }
+.btn {
+  padding: 1rem 2rem;
+  border: 0.5rem solid #f9b714;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+.btn:hover {
+  background-color: #f9b714;
+}
+.heading span {
+  color: #f9b714;
+}
 @keyframes float {
   0%,
   100% {
@@ -74,11 +86,24 @@ header .icons div:hover {
 }
 .contact .row form {
   flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
 }
 .contact .row form .inputBox {
   margin-top: 2rem;
   margin-bottom: 2rem;
-
+}
+.contact .row form .inputBox input {
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: none;
+  background: none;
+}
+.contact .row form .inputBox span {
+ color: #c91103;
+ font-size: 2rem;
+ padding-left: 2rem;
 }
 @media (max-width: 900) {
   html,
@@ -86,10 +111,10 @@ header .icons div:hover {
     font-size: 50%;
   }
   header {
-    padding: 1.5rem 2rem;
+    padding: 2rem;
   }
 }
 /*
-background: url(Pizza/hot.jpg) no-repeat;
-background-size: cover;
-background-position: center;
+ background: url(Pizza/hot.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
