@@ -11,40 +11,41 @@ body {
   background: #2f1812;
 }
 header {
-  background: #f9b714;  
-  align-items: center;                      
+  background: #f9b714;
+  align-items: center;
   padding: 1.5rem 7%;
   border-bottom: ;
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
 }
-header .navbar a{
-margin: 0.4rem;
-font-size: 1rem;
-color: #2f1812;
+header .navbar a {
+  margin: 0.4rem;
+  font-size: 1rem;
+  color: #2f1812;
 }
-header .navbar a:hover{
+header .navbar a:hover {
   color: #c91103;
-padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
-header .icons div{
+header .icons div {
   color: #2f1812;
   cursor: pointer;
   font-size: 1.5rem;
   margin-left: 2rem;
 }
-header .icons div:hover{
+header .icons div:hover {
   color: #c91103;
 }
 
-
-
-
-/*
 @media (max-width: 900) {
   html,
   body {
     font-size: 50%;
+  }
+  header {
+    padding: 1.5rem 2rem;
   }
 }
