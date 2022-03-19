@@ -19,11 +19,14 @@ header {
   z-index: 1000;
 }
 header .navbar a{
-margin: 0.1rem;
+margin: 0.4rem;
 font-size: 1rem;
 color: #2f1812;
 }
-
+header .navbar a:hover{
+  color: #c91103;
+padding-bottom: 2rem;
+}
 
 
 
