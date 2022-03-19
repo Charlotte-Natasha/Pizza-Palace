@@ -11,7 +11,8 @@ body {
   background: #2f1812;
 }
 header {
-  background: #f9b714;                        
+  background: #f9b714;  
+  align-items: center;                      
   padding: 1.5rem 7%;
   border-bottom: ;
   position: fixed;
@@ -26,6 +27,15 @@ color: #2f1812;
 header .navbar a:hover{
   color: #c91103;
 padding-bottom: 2rem;
+}
+header .icons div{
+  color: #2f1812;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+header .icons div:hover{
+  color: #c91103;
 }
 
 
