@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap");
-
-.menu {
-  position: relative;
-  grid-template-columns: auto 1fr;
-  border-radius: 15px;
+* {
+  font-family: "Fredoka", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
 }
-.menu img {
-  position: relative;
-  width: 100%;
-  border-radius: 15px 15px 0;
+body {
+  background: #2f1812;
 }
-
 @media (max-width: 900) {
   html,
   body {
