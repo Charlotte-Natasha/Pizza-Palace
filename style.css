@@ -7,9 +7,6 @@
   text-decoration: none;
   outline: none;
 }
-body {
-  background: #2f1812;
-}
 header {
   background: #f9b714;
   align-items: center;
@@ -43,7 +40,7 @@ header .icons div:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
-
+  background: #2f1812;
   color: #ecbd72;
 }
 .home .content {
@@ -65,6 +62,23 @@ header .icons div:hover {
   50% {
     transform: translateY(3rem);
   }
+}
+.contact .row {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+.contact .row form {
+  flex: 1 1 45rem;
+}
+.contact .row form .inputBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
 }
 @media (max-width: 900) {
   html,
