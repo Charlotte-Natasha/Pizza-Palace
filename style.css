@@ -7,11 +7,7 @@
   text-decoration: none;
   outline: none;
 }
-body{
-  background: url(Pizza/hand.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 section{
   padding: 2rem 9%;
 }

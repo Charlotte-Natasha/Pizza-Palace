@@ -57,29 +57,115 @@
         <img src="Pizza/hot.jpg" alt="" />
       </div>
     </section>
+    
+    <!--Extras section-->
+    <section>
+      <h1 class="text-center">--Make Your Own Pizza--</h1>
+      <div class="extras">
+        <div class="extrasmenu"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Pizza/topcheese.jpg" alt="" />
+            </div>
+              <label for="crust-select">Crust types.. <span>200ksh</span>:</label>
+
+            <select name="crust" id="type-select">
+                <option value="">--Crust options--</option>
+                <option value="crispy">Crispy</option>
+                <option value="gluten">Gluten Free</option>
+                <option value="stuffed">Stuffed Crust</option>
+                <option value="thick">Thick Crust</option>
+               
+            </select>
+            <button class="" id="cartBtn">Add to cart</button>
+            
+            
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Pizza/meattops.jpg" alt="" />
+              </div>
+              <label for="meat-select">Meat types... <span>4OOksh</span>:</label>
+
+            <select name="meattops" id="type-select">
+                <option value="">--Meat options--</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="sausage">Sausage</option>
+                <option value="bacon">Bacon</option>
+                <option value="chicken">Chicken</option>
+               <option value="beef">Beef</option>
+            </select>
+            <button class="" id="cartBtn">Add to cart</button>
+            
+            
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Pizza/vegtops.jpg" alt="" />
+            </div>
+              <label for="cheese-select">Veggie types... <span>150ksh</span>:</label>
+
+            <select name="cheese" id="type-select">
+                <option value="">--Veggie options--</option>
+                <option value="pineapples">Pineapples</option>
+                <option value="mushrooms">Mushrooms</option>
+                <option value="olives">Black olives</option>
+                <option value="babyspinach">Baby Spinach</option>
+               <option value="pepper">Roasted red pepper</option>
+            </select>
+            <button id="cartBtn">Add to cart</button>
+            
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Pizza/topcheese.jpg" alt="" />
+            </div>
+            <label for="cheese-select">Cheese types... 250ksh:</label>
+
+            <select name="cheese" id="type-select">
+                <option value="">--Cheese options--</option>
+                <option value="mozzarella">Mozzarella</option>
+                <option value="parmesan">Parmesan</option>
+                <option value="cheddar">Cheddar Cheese</option>
+                <option value="goat">Goat Cheese</option>
+               
+            </select>
+            <button class="" id="cartBtn">Add to cart</button>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Pizza/meattops.jpg" alt="" />
+            </div>
+            <label for="meat-select">Sea Food... 400ksh:</label>
+
+            <select name="seafood" id="type-select">
+                <option value="">--Fish options--</option>
+                <option value="lobster">Lobster</option>
+                <option value="octopus">Octopus</option>
+                <option value="anchovies">Anchovies</option>
+                <option value="prawns">Prawns</option>
+               <option value="scorpion">Scorpion</option>
+            </select>
+
+            <button class="" id="cartBtn">Add to cart</button>
+          </div>
+         
+        </div>
+       
+      </div>
+    </section>
     <!-- what we offer-->
     <section class="offer" id="offer">
       <h1 class="heading text-center">Our <span>Specialities</span></h1>
       <div class="menu">
         <div class="menu-section"></div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="card">
-              <img src="Pizza/Hawaaian.jpg" alt="" />
-              <div class="overlay">
-                <p class="overlay-p">
-                  Do you enjoy pineapples on pizza. We got you.
-                </p>
-              </div>
-            </div>
-            <p>
-              Hawaaian <br />
-              <span class="fas fa-clock"></span>
-              15-30mins
-            </p>
-            <button>Add to cart</button>
-          </div>
-          <div class="col-md-3">
+       
+          <div class="col-md-4">
             <div class="card">
               <img src="Pizza/Bellpepper-cheese.jpeg" alt="" />
               <div class="overlay">
@@ -88,19 +174,22 @@
                 </p>
               </div>
             </div>
+            <div class="choice">
             <p>
-              Bellpepper-cheese<br />
+              Bellpepper-cheese... Quantity <input type="number" min="1" max="10"><br />
               <span class="fas fa-clock"></span>
               15-30mins
             </p>
+
             <button>Add to cart</button>
           </div>
-          <div class="col-md-3">
+          </div>
+          <div class="col-md-4">
             <div class="card">
               <img src="Pizza/Lobster.jpeg" alt="" />
               <div class="overlay">
                 <p class="overlay-p">
-                  Want to try sea food on pizza. Try out lobster first.
+                  Want to try sea food on pizza. Try out this lobster pizza first.
                 </p>
               </div>
             </div>
@@ -111,12 +200,12 @@
             </p>
             <button>Add to cart</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card">
               <img src="Pizza/Cheese-pepper.jpeg" alt="" />
               <div class="overlay">
                 <p class="overlay-p">
-                  We got the best cheese prepare to be bamboozled.
+                  We got the best cheese to choose from.Prepare to be bamboozled.
                 </p>
               </div>
             </div>
@@ -129,21 +218,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="card">
-              <img src="Pizza/Pepperoni.jpeg" alt="" />
-              <div class="overlay">
-                <p class="overlay-p"></p>
-              </div>
-            </div>
-            <p>
-              Pepperoni Pizza <br />
-              <span class="fas fa-clock"></span>
-              15-30mins
-            </p>
-            <button>Add to cart</button>
-          </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card">
               <img src="Pizza/green.jpeg" alt="" />
               <div class="overlay">
@@ -160,7 +235,7 @@
             </p>
             <button>Add to cart</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card">
               <img src="Pizza/Masala.jpg" alt="" />
               <div class="overlay">
@@ -177,75 +252,21 @@
             </p>
             <button>Add to cart</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card">
-              <img class="img-8" src="Pizza/Basil.jpeg" alt="" />
+              <img src="Pizza/Hawaaian.jpg" alt="" />
               <div class="overlay">
                 <p class="overlay-p">
-                  Pizza garnished with basil leaves for a fresh taste.
+                  Do you enjoy savory things like pineapples on pizza. We got you.
                 </p>
               </div>
             </div>
             <p>
-              Basil Pizza <br />
+              Hawaaian <br />
               <span class="fas fa-clock"></span>
-              15-30mins
+              15-30mins <span></span>
             </p>
             <button>Add to cart</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Extras section-->
-    <section>
-      <h1 class="text-center">--Extras--</h1>
-      <div class="extras">
-        <div class="extrasmenu"></div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Pizza/topcheese.jpg" alt="" />
-            </div>
-            <label for="cheese-select">Cheese types:</label>
-
-            <select name="cheese" id="type-select">
-                <option value="">--Cheese options--</option>
-                <option value="mozarella">Mozarella</option>
-                <option value="parmesan">Parmesan</option>
-                <option value="goatcheese">Goat Cheese</option>
-                <option value="gorgonzola">Gorgonzola</option>
-               
-            </select>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Pizza/meattops.jpg" alt="" />
-            </div>
-            <label for="meat-select">Meat types:</label>
-
-            <select name="meattops" id="type-select">
-                <option value="">--Meat options--</option>
-                <option value="pepperoni">Pepperoni</option>
-                <option value="sausage">Sausage</option>
-                <option value="bacon">Bacon</option>
-                <option value="chicken">Chicken</option>
-               <option value="beef">Beef</option>
-            </select>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Pizza/vegtops.jpg" alt="" />
-            </div>
-            <label for="cheese-select">Veggie types:</label>
-
-            <select name="cheese" id="type-select">
-                <option value="">--Veggie options--</option>
-                <option value="pineapples">Pineapples</option>
-                <option value="mushrooms">Mushrooms</option>
-                <option value="olives">Black olives</option>
-                <option value="babyspinach">Baby Spinach</option>
-               <option value="pepper">Roasted red pepper</option>
-            </select>
           </div>
         </div>
       </div>
