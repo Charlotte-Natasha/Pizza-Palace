@@ -1,18 +1,41 @@
-$(document).ready(function(){
-function Pizza (size, crust, toppings, price, quantity){
-  this.size=size;
-  this.crust=crust;
-  this.toppings=toppings;
-  this.price=price;
-  this.quantity=quantity;
-}
-Pizza.prototype.calculatePrice=function(){
-
-}
-let buttons=$('')
+$(document).ready(function () {
+  function Pizza(size, crust, toppings, price, quantity) {
+    this.size = size;
+    this.crust = crust;
+    this.cheese = cheese;
+    this.quantity = quantity;
+    this.price = price;
+  }
+  Pizza.prototype.calculatePrice = function () {
 
 
+    let buttons = $('.card button');
+    buttons.click(function () {
+      //let size=$(this).closest('.card').find('.prices').text();
+      let crust = $(this).closest('.card').find('select[name=crust]').val();
+      let cheese = $(this).closest('.card').find('select[name=cheese]').val();
+      let price = $(this).closest('.card').find('select[name=size]').val();
+    });
+    //creating new object
+    let Pizzeria = new Pizza(size, crust, cheese, price, quantity);
+    console.log(Pizza)
 
+    //generate price
+    let table = $('table tbody');
+    let tableData = `
+<tr>
+<td>${Pizzeria.size}</td>
+<td>${Pizzeria.crust}</td>
+<td>${Pizzeria.cheese}</td>
+<td>${Pizzeria.price}</td>
+<td>${Pizzeria.quantity}</td>
+
+<td class= "capt">${newEntry.calculateTotalPrice()}.</td>
+</tr>
+
+`
+    let tableBody = ('#table tbody');
+    tableBody[0].innerHTML += tableData;
 
 
 
@@ -32,6 +55,7 @@ let buttons=$('')
 
 
 /*
+
     $('.card').hover(function(){
         $('.overlay', this).show();
         $('.overlay-p', this).show();

@@ -182,7 +182,23 @@
                   <span class="fas fa-clock"></span>
                   15-30mins
                 </p>
-    
+                <select name="cheese" id="type-select">
+                  <option value="">--Cheese options--</option>
+                  <option value="mozzarella">Mozzarella</option>
+                  <option value="parmesan">Parmesan</option>
+                  <option value="cheddar">Cheddar Cheese</option>
+                  <option value="goat">Goat Cheese</option>
+                 
+              </select>
+              <div class="prices">
+              
+                <select name="size" id="selectSize">
+                  <option value="sizes">Pizza Sizes...</option>
+                  <option value="small">Small... <span>600Ksh</span></option>
+                  <option value="medium">Medium... <span>1000Ksh</span></option>
+                  <option value="large">Large... <span>1200Ksh</span></option>
+                </select>
+              </div>
                 <button>Add to cart</button>
               </div>
             </div>
@@ -204,6 +220,16 @@
                   <span class="fas fa-clock"></span>
                   15-30mins
                 </p>
+                <label for="meat-select">Sea Food... 400ksh:</label>
+
+                <select name="seafood" id="type-select">
+                    <option value="">--Fish options--</option>
+                    <option value="lobster">Lobster</option>
+                    <option value="octopus">Octopus</option>
+                    <option value="anchovies">Anchovies</option>
+                    <option value="prawns">Prawns</option>
+                   <option value="scorpion">Scorpion</option>
+                </select>
                 <button>Add to cart</button>
               </div>
             </div>
@@ -245,6 +271,16 @@
                   <span class="fas fa-clock"></span>
                   15-30mins
                 </p>
+                <label for="cheese-select">Veggie types... <span>150ksh</span>:</label>
+
+                <select name="cheese" id="type-select">
+                    <option value="">--Veggie options--</option>
+                    <option value="pineapples">Pineapples</option>
+                    <option value="mushrooms">Mushrooms</option>
+                    <option value="olives">Black olives</option>
+                    <option value="babyspinach">Baby Spinach</option>
+                   <option value="pepper">Roasted red pepper</option>
+                </select>
                 <button>Add to cart</button>
               </div>
             </div>
@@ -302,7 +338,7 @@
 <tr>
   <td>Size</td>
   <td>Crust</td>
-  <td>Toppings</td>
+  <td>Cheese</td>
   <td>Quantity</td>
   <td>Price</td>
   <td>Total Price</td>
